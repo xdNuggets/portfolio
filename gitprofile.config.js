@@ -18,7 +18,7 @@ const config = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'xdnuggets',
     website: 'https://xdNuggets.github.io/portfolio',
     phone: '',
     email: 'jdogs2005@gmail.com',
