@@ -36,11 +36,13 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    
+    source: 'dev', // medium | dev
+    username: '', // to hide blog section, keep it empty
+    limit: 3,
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    id: '', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
     id: '2617601', //  Please remove this and use your own id or keep it empty
